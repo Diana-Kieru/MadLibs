@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.39" >
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/outview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="1.) Adjective to Describe:" />
+            <TextView
+                android:id="@+id/lvheader_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="2.) ing-verb (i.e. running):" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="3.) Negative Adjective:" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="4.) Negative Verb:" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="5.) Adjective" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="6.) Plural Noun:" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="7.) Verb (ending in &apos;-ed&apos;):" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/anskey_clover"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:orientation="vertical" >
+            <AutoCompleteTextView
+                android:id="@+id/auview1"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:ems="10"
+                android:text="la dee dah" />
+            <AutoCompleteTextView
+                android:id="@+id/auview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+            <AutoCompleteTextView
+                android:id="@+id/auview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+            <AutoCompleteTextView
+                android:id="@+id/auview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+            <AutoCompleteTextView
+                android:id="@+id/auview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+            <AutoCompleteTextView
+                android:id="@+id/auview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+            <AutoCompleteTextView
+                android:id="@+id/auview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="222dp"
+        android:layout_height="93dp"
+        android:layout_weight="0.25"
+        android:onClick="onClick"
+        android:text="Get My Mad Lib" />
+</LinearLayout>

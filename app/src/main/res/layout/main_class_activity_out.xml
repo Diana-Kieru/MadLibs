@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/outview14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="As it happens, &quot;Cloverfield&quot; clocks in at 84 minutes, a running time that includes the usual interminable wx .  It starts under the premise that we are watching an official, classified government video detailing a critical wx or events.  Then we are introduced to the cast, a hodgepodge of late wx-something young things who consistently do any and everything that is wx to basic logic and human nature throughout the film.  Take for example Hud,  the hapless best friend of the film&apos;s  main character who inexplicably documents each and every single events despite his admitted dislike of wx (and oh yeah while he&apos;s running for his life).   If there is anything controversial or thought-provoking about this film, it would have to be the movie&apos;s allusions to the events of 9/11.  But don&apos;t worry, &quot;Cloverfield&quot; is far too dumb to offend everything except your wx.  While the film is nominally a monster movie, in truth it is mostly a feature length gimmick.  Like too many big-studio productions, &quot;Cloverfield&quot; works as a showcase for impressively realistic-looking speical effects.  As a consequence, the movie&apos;s best actor is the 40 foot monster who systematically trashes downtown Manhattan.  The rest of the case is about as smart as tater tots and half as wx.  Rarely have I rooted for a monster with such enthusiasm. " />
+</LinearLayout>
