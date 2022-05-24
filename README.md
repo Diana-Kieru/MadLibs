@@ -1,0 +1,2 @@
+# MadLibs
+At the start of the app, we will have an Input Form that asks the user to input some words on the given textfields (lines). After the user is done with the input, they press a button labelled "Get My Mad Lib" and this makes the program display another page....the Output Form. As you would expect, the Output Form has some text (maybe a paragraph or two), and within this text you will find the words that you just input into the Input Form.
